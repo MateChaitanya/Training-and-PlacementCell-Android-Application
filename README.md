@@ -1,6 +1,8 @@
 # Training and Placement Cell Android Application
 
-![main_icon | width =10](https://github.com/MateChaitanya/Training-and-Placement-Cell-Android-App/assets/99747639/4c70b2ba-bf0d-4b7d-ab90-f83b39201902)
+![1703523434897](https://github.com/MateChaitanya/Training-and-Placement-Cell-Android-App/assets/99747639/9cfbc198-d0ab-434e-9eb9-e287ad2536f5)
+
+
 
 
 ## Abstract
