@@ -1,38 +1,6 @@
 # Training and Placement Cell Android Application
-![main_icon](https://github.com/MateChaitanya/Training-and-Placement-Cell-Android-App/assets/99747639/434df21b-f8fc-4dad-a0a9-7cc71e95c045)
 
-
-## Setup Instructions
-
-1. **Set up the database:**
-   - Execute the provided SQL scripts to set up the necessary database.
-
-2. **Configure API keys:**
-   - Open the project in Android Studio and configure any required API keys.
-
-3. **Build and run the application:**
-   - Use Android Studio to build and run the application on your Android device or emulator.
-
-## Technology Stack
-
-- **Front End:** XML, JAVA, Python
-- **Back End:** MYSQL, JAVA
-- **IDE:** Android Studio
-- **Additional Libraries:** NLTK, Pyresparser
-
-## Contribution Guidelines
-
-We welcome contributions to improve and enhance the functionality of the Training and Placement Cell Android Application. If you have suggestions, found a bug, or want to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-We express gratitude to the project guide, Miss. Rani Sandhbhor, for her valuable guidance and support. Special thanks to Dr. S.A. Thorat, the Project Coordinator, for overseeing the project's progress.
-
-Feel free to explore, contribute, and make use of this Training and Placement Cell Android Application!
+![main_icon | width =10](https://github.com/MateChaitanya/Training-and-Placement-Cell-Android-App/assets/99747639/4c70b2ba-bf0d-4b7d-ab90-f83b39201902)
 
 
 ## Abstract
@@ -56,7 +24,7 @@ The Training and Placement Cell Android Application aims to automate and streaml
 5. **Placement Management System:**
    - Training and Placement Officer can manage placement details, company information, and student profiles.
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -64,7 +32,7 @@ The Training and Placement Cell Android Application aims to automate and streaml
 - MySQL
 - Python (for resume parsing)
 
-## Setup Instructions
+## 🛠️ Setup Instructions
 
 1. **Set up the database:**
    - Execute the provided SQL scripts to set up the necessary database.
@@ -75,7 +43,7 @@ The Training and Placement Cell Android Application aims to automate and streaml
 3. **Build and run the application:**
    - Use Android Studio to build and run the application on your Android device or emulator.
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - **Front End:** XML, JAVA, Python
 - **Back End:** MYSQL, JAVA
