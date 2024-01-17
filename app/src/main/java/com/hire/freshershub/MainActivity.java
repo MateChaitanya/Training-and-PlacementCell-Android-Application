@@ -156,7 +156,6 @@ public class MainActivity extends AppCompatActivity {
                     .into(profilePhotoHeader);
         }
     }
-
     private void onSignedOutCleanup(){
         mUsername = ANONYMOUS;
     }
