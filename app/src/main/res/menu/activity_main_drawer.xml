@@ -30,6 +30,10 @@
             android:id="@+id/nav_assistant_tpo"
             android:icon="@drawable/ic_baseline_groups_24"
             android:title="@string/menu_assistant_tpo" />
+        <item
+            android:id="@+id/nav_resume_builder"
+            android:icon="@drawable/ic_baseline_co_present_24"
+            android:title="Resume Builder" />
 
         <item
             android:id="@+id/nav_group_chat"
