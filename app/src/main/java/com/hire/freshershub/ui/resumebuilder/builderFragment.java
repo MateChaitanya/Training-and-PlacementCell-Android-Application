@@ -48,13 +48,14 @@ public class builderFragment extends Fragment {
         }
     }
 
+    // Your existing builderFragment code
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_builder, container, false);
 
-        // Assuming you have a TextView in your layout, you can set an onClickListener
-        TextView linkTextView = view.findViewById(R.id.nav_resume_builder); // Replace with your TextView ID
+        TextView linkTextView = view.findViewById(R.id.nav_resume_builder);
         linkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,6 +65,7 @@ public class builderFragment extends Fragment {
 
         return view;
     }
+
 
     private void openUrlInBrowser(String url) {
         // Specify the package for Chrome
