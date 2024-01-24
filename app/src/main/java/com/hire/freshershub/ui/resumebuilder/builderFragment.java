@@ -38,6 +38,12 @@ public class builderFragment extends Fragment {
         fragment.setArguments(args);
         return fragment;
     }
+    public void openResumeBuilderLink(View view) {
+        // Open the link to the Resume Builder in the default browser
+        String url = "https://your_resume_builder_url_here";
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        startActivity(intent);
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,7 +65,7 @@ public class builderFragment extends Fragment {
         linkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openUrlInBrowser("https://www.ibusa-foundation.org/resume-builder/?gad_source=1&gclid=Cj0KCQiAwbitBhDIARIsABfFYILJ_FDkwMJ8Jp8lQtqkjCNwoMG0SUKG-r7NLFaxjbzxtiT4GTPPZU8aAu7TEALw_wcB");
+                openUrlInBrowser("https://novoresume.com/?noRedirect=true");
             }
         });
 
