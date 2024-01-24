@@ -7,13 +7,18 @@
     <!-- Other layout elements -->
 
     <TextView
+
         android:id="@+id/nav_resume_builder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click here to open link"
         android:textColor="?attr/colorAccent"
         android:textStyle="bold"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:icon="@drawable/resumebuilder"
+        android:title="Resume Builder"/>
+
+
 
     <!-- Other layout elements -->
 

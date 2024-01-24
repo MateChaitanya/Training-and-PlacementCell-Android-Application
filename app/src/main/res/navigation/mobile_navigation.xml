@@ -42,6 +42,12 @@
         tools:layout="@layout/fragment_group_chat" />
 
     <fragment
+        android:id="@+id/nav_resume_builder"
+        android:name="com.hire.freshershub.ui.resumebuilder.builderFragment"
+        android:label="Resume Builder"
+        tools:layout="@layout/fragment_builder" />
+
+    <fragment
         android:id="@+id/nav_our_team"
         android:name="com.hire.freshershub.ui.ourTeam.ourTeamFragment"
         android:label="@string/menu_our_team"
