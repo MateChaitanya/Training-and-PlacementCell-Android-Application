@@ -66,7 +66,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Click here to explore the Resume Builder and Resume Analyzer"
+                android:text="Click here to explore the Resume Analyzer"
                 android:textColor="?attr/colorAccent"
                 android:textStyle="bold" />
         </LinearLayout>
