@@ -23,7 +23,6 @@
                 android:src="@drawable/resumeanalyser"
                 android:layout_gravity="center"/>
 
-
             <!-- Text Description for Resume Analyzer -->
             <TextView
                 android:layout_width="wrap_content"
