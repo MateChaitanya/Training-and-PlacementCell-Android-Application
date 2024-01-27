@@ -24,11 +24,14 @@
                 android:layout_gravity="center"/>
 
 
+<<<<<<< HEAD
 
 
             <!-- Steps for Resume Builder -->
             <!-- ... (Same as before) -->
 
+=======
+>>>>>>> abeede55480c0147b519944bad6ef48a58ba962a
             <!-- Text Description for Resume Analyzer -->
             <TextView
                 android:layout_width="wrap_content"
