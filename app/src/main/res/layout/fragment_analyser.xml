@@ -24,11 +24,6 @@
                 android:layout_gravity="center"/>
 
 
-
-
-            <!-- Steps for Resume Builder -->
-            <!-- ... (Same as before) -->
-
             <!-- Text Description for Resume Analyzer -->
             <TextView
                 android:layout_width="wrap_content"
