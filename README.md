@@ -47,10 +47,6 @@ The Training and Placement Cell Android Application aims to automate and streaml
 - **Front End:** XML, JAVA, Python
 - **Back End:** MYSQL, JAVA
 - **IDE:** Android Studio
-<<<<<<< HEAD
 - **Additional Libraries:** NLTK, Pyresparser.
-=======
-- **Additional Libraries:** NLTK, Pyresparser
->>>>>>> abeede55480c0147b519944bad6ef48a58ba962a
 
 Feel free to explore, contribute, and make use of this Training and Placement Cell Android Application!
