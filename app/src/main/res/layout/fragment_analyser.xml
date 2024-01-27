@@ -23,18 +23,6 @@
                 android:src="@drawable/resumeanalyser"
                 android:layout_gravity="center"/>
 
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-
-
-            <!-- Steps for Resume Builder -->
-            <!-- ... (Same as before) -->
-
-=======
->>>>>>> abeede55480c0147b519944bad6ef48a58ba962a
->>>>>>> 0b540e34c51b5e876c93d6462090695061216109
             <!-- Text Description for Resume Analyzer -->
             <TextView
                 android:layout_width="wrap_content"
