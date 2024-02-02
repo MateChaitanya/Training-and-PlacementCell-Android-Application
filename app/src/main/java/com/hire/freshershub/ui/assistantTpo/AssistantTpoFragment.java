@@ -65,8 +65,8 @@ public class AssistantTpoFragment extends Fragment {
         assistantTpoList = new ArrayList<>();
         assistantTpoAdapter = new AssistantTpoAdapter(getContext(), assistantTpoList);
 
-      assistantTpoList.add(new AssistantTpoItem("Computer Engineering","R.P. Bagawade","Assistant Professor","tpo.comp@gcoeara.ac.in","bagawaderp@gmail.com","7465479579"));
-//        assistantTpoList.add(new AssistantTpoItem("Electronics and Telecommunication Engineering","R.P. Bagawade","Assistant Professor","tpo.comp@gcoeara.ac.in","bagawaderp@gmail.com","7465479579"));
+      // assistantTpoList.add(new AssistantTpoItem("Computer Engineering","Dr.S.A.Thorat","Assistant Professor","tpo.comp@gcoeara.ac.in","sathorat.comp@gcoeara.ac.in","7083369543"));
+    //assistantTpoList.add(new AssistantTpoItem("Electronics and Telecommunication Engineering","R.P. Bagawade","Assistant Professor","tpo.comp@gcoeara.ac.in","bagawaderp@gmail.com","7465479579"));
 
         LinearLayoutManager linearLayoutManagerForAssistantTpo = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, true);
         assistantTpoRecyclerView.setLayoutManager(linearLayoutManagerForAssistantTpo);
