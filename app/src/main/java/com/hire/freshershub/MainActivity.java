@@ -74,7 +74,13 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_job_profiles, R.id.nav_update_profile, R.id.nav_placement_statistics, R.id.nav_tnp_details, R.id.nav_assistant_tpo, R.id.nav_group_chat, R.id.nav_our_team)
+                R.id.nav_job_profiles, R.id.nav_update_profile, R.id.nav_placement_statistics, R.id.nav_tnp_details, R.id.nav_assistant_tpo, R.id.nav_our_team)
+
+                // R.id.nav_group_chat<<<----- put this to enable the group chat
+
+
+
+
                 .setOpenableLayout(drawer)
                 .build();
 

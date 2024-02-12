@@ -40,10 +40,10 @@
             android:icon="@drawable/baseline_manage_search_24"
             android:title="Resume Analyser" />
 
-        <item
-            android:id="@+id/nav_group_chat"
-            android:icon="@drawable/ic_baseline_chat_24"
-            android:title="@string/menu_group_chat" />
+<!--        <item-->
+<!--            android:id="@+id/nav_group_chat"-->
+<!--            android:icon="@drawable/ic_baseline_chat_24"-->
+<!--            android:title="@string/menu_group_chat" />-->
 
         <item
             android:id="@+id/nav_our_team"
