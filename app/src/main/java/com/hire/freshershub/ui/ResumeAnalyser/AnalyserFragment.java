@@ -40,7 +40,7 @@ public class AnalyserFragment extends Fragment {
     }
     public void openResumeBuilderLink(View view) {
         // Open the link to the Resume Builder in the default browser
-        String url = "https://your_resume_builder_url_here";
+        String url = "https://builder.zety.com/resume/select-resume";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(intent);
     }
