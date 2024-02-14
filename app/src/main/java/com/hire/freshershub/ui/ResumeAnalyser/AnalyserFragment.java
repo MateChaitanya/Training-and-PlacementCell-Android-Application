@@ -65,7 +65,7 @@ public class AnalyserFragment extends Fragment {
         linkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openUrlInBrowser("https://novoresume.com/?noRedirect=true");
+                openUrlInBrowser("https://resume.naukri.com/resume-quality-report?fftid=RQS1003");
             }
         });
 
