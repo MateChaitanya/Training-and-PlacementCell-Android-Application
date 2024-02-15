@@ -144,7 +144,8 @@ public class GroupChatFragment extends Fragment {
         mSendButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Message message = new Message(mMessageEditText.getText().toString(), mUsername, null);
+               // Message message = new Message(mMessageEditText.getText().toString(), mUsername, null);
+                Message message = new Message("hello", mUsername, null);
                 mMessagesDatabaseReference.push().setValue(message);
                 // Clear input box
                 mMessageEditText.setText("");
