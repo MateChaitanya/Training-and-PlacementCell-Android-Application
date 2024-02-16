@@ -40,7 +40,7 @@ public class builderFragment extends Fragment {
     }
     public void openResumeBuilderLink(View view) {
         // Open the link to the Resume Builder in the default browser
-        String url = "https://your_resume_builder_url_here";
+        String url = "https://tushthorat.github.io/ResumeBuilder/resume.html";
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(intent);
     }
@@ -65,7 +65,8 @@ public class builderFragment extends Fragment {
         linkTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openUrlInBrowser("https://novoresume.com/?noRedirect=true");
+                openUrlInBrowser("https://tushthorat.github.io/ResumeBuilder/resume.html");
+                //https://novoresume.com/?noRedirect=true
             }
         });
 
