@@ -123,7 +123,7 @@ public class AddJob extends AppCompatActivity {
 
                     String jobDescription = jobDescriptionEditText.getText().toString();
 
-                    Job job = new Job(R.layout.activity_add_job, position, companyName, experience, openings, location, salary, skills, url, jobDescription);
+                    Job job = new Job(id, position, companyName, experience, openings, location, salary, skills, url, jobDescription);
                     mJobsDatabaseReference.child(String.valueOf(id)).setValue(job);
                     Intent intent = new Intent(AddJob.this, MainActivity.class);
                     startActivity(intent);
@@ -133,7 +133,6 @@ public class AddJob extends AppCompatActivity {
             }
         });
     }
-
 
     private boolean validateJob(){
         String companyName = nameEditText.getText().toString();

@@ -35,11 +35,11 @@
         android:label="@string/menu_assistant_tpo"
         tools:layout="@layout/fragment_assistant_tpo" />
 
-<!--    <fragment-->
-<!--        android:id="@+id/nav_group_chat"-->
-<!--        android:name="com.hire.freshershub.ui.groupChat.GroupChatFragment"-->
-<!--        android:label="@string/menu_group_chat"-->
-<!--        tools:layout="@layout/fragment_group_chat" />-->
+        <fragment
+            android:id="@+id/nav_group_chat"
+            android:name="com.hire.freshershub.ui.groupChat.GroupChatFragment"
+            android:label="@string/menu_group_chat"
+            tools:layout="@layout/fragment_group_chat" />
 
     <fragment
         android:id="@+id/nav_resume_builder"

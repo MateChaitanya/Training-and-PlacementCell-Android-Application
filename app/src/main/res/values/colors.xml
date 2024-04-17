@@ -4,9 +4,7 @@
     <color name="purple_500">#009688</color>
     <color name="purple_700">#00796B</color>
     <color name="teal_200">#009688</color>
-    <color name="teal_700">#7ABDDD</color>
-    <color name="black">#F3000000</color>
+    <color name="teal_700">#455A64</color>
+    <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
 </resources>

@@ -84,7 +84,6 @@ public class JobDetails extends AppCompatActivity {
             }
         }
 
-
         jobDetailsApplyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

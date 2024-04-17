@@ -99,7 +99,7 @@ public class ApplicationJobs extends Fragment implements JobAdapter.customButton
 
     @Override
     public void onShowMoreButtonClickListener(int position) {
-        //Toast.makeText(getContext(), "Position "+position, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getContext(), "Position "+position, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getContext(), JobDetails.class);
         intent.putExtra("type", "application");
         intent.putExtra("name", jobs.get(position).getCompanyName());

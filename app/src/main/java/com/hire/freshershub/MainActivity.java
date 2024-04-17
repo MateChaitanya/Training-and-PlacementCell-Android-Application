@@ -74,13 +74,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_job_profiles, R.id.nav_update_profile, R.id.nav_placement_statistics, R.id.nav_tnp_details, R.id.nav_assistant_tpo, R.id.nav_our_team)
-
-                // R.id.nav_group_chat<<<----- put this to enable the group chat
-
-
-
-
+                R.id.nav_job_profiles, R.id.nav_update_profile, R.id.nav_placement_statistics, R.id.nav_tnp_details, R.id.nav_assistant_tpo,R.id.nav_resume_builder,R.id.nav_resume_analyser, R.id.nav_group_chat, R.id.nav_our_team)
                 .setOpenableLayout(drawer)
                 .build();
 
@@ -96,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
 
         mUsername = ANONYMOUS;
+
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -120,8 +115,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
     }
-
-
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -163,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
                     .into(profilePhotoHeader);
         }
     }
+
     private void onSignedOutCleanup(){
         mUsername = ANONYMOUS;
     }
@@ -187,8 +181,6 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
-
 
     @SuppressLint("NonConstantResourceId")
     @Override
@@ -217,8 +209,5 @@ public class MainActivity extends AppCompatActivity {
 
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
-
-
     }
-
 }
